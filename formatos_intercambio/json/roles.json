@@ -1,0 +1,25 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "nombre": "administrador",
+      "descripcion": "Responsable del sistema y la gestión de usuarios/productos",
+      "creado_en": "2026-09-08 05:00:00",
+      "actualizado_en": ""
+    },
+    {
+      "id": 2,
+      "nombre": "productor",
+      "descripcion": "Responsable de los huertos, sus cuidados y de los productos",
+      "creado_en": "2026-09-08 05:05:00",
+      "actualizado_en": ""
+    },
+    {
+      "id": 3,
+      "nombre": "cliente",
+      "descripcion": "Ususrios que compran productos de los huertos",
+      "creado_en": "2026-09-08 05:10:00",
+      "actualizado_en": ""
+    }
+  ]
+}

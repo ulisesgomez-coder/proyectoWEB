@@ -1,0 +1,109 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "rol_id": 1,
+      "nombres": "Juan",
+      "apellidos": "García Torres",
+      "correo": "juan.admin@huertosurbanos.mx",
+      "correo_verificado_en": "2026-01-10 09:00:00",
+      "contrasena": "$2y$12$contrasenaSimuladaUsuario1",
+      "telefono": "3311111111",
+      "estado": "activo",
+      "token_recordar": null,
+      "creado_en": "2026-01-10 09:00:00",
+      "actualizado_en": "2026-01-10 09:00:00",
+      "eliminado_en": null,
+      "rol": {
+        "id": 1,
+        "nombre": "administrador",
+        "descripcion": "Responsable de administrar la plataforma"
+      },
+      "huertos": []
+    },
+    {
+      "id": 2,
+      "rol_id": 2,
+      "nombres": "Jonathan Ulises",
+      "apellidos": "Gómez Guzmán",
+      "correo": "jonathan@gg.com",
+      "correo_verificado_en": "2026-01-15 09:00:00",
+      "contrasena": "$2y$12$contrasenaSimuladaUsuario2",
+      "telefono": "3322222222",
+      "estado": "activo",
+      "token_recordar": null,
+      "creado_en": "2026-01-15 09:00:00",
+      "actualizado_en": "2026-01-15 09:00:00",
+      "eliminado_en": null,
+      "rol": {
+        "id": 2,
+        "nombre": "productor",
+        "descripcion": "Responsable de un huerto y sus productos"
+      },
+      "huertos": [
+        {
+          "id": 1,
+          "nombre": "Huerto Las Flores",
+          "funcion_miembro": "propietario",
+          "fecha_ingreso": "2026-01-15 09:00:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "rol_id": 3,
+      "nombres": "Sonia",
+      "apellidos": "Gómez Salcedo",
+      "correo": "sonia@gomez.com",
+      "correo_verificado_en": "2026-02-01 11:30:00",
+      "contrasena": "$2y$12$contrasenaSimuladaUsuario3",
+      "telefono": "3333333333",
+      "estado": "activo",
+      "token_recordar": null,
+      "creado_en": "2026-02-01 11:30:00",
+      "actualizado_en": "2026-02-01 11:30:00",
+      "eliminado_en": null,
+      "rol": {
+        "id": 3,
+        "nombre": "cliente",
+        "descripcion": "Usuario que consulta y adquiere productos"
+      },
+      "huertos": [
+        {
+          "id": 1,
+          "nombre": "Huerto Las Flores",
+          "funcion_miembro": "colaborador",
+          "fecha_ingreso": "2026-02-01 11:30:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "rol_id": 2,
+      "nombres": "Gabriela Paola",
+      "apellidos": "González Ruiz",
+      "correo": "gabys@gr.com",
+      "correo_verificado_en": "2026-02-10 08:45:00",
+      "contrasena": "$2y$12$contrasenaSimuladaUsuario4",
+      "telefono": "3344444444",
+      "estado": "activo",
+      "token_recordar": null,
+      "creado_en": "2026-02-10 08:45:00",
+      "actualizado_en": "2026-02-10 08:45:00",
+      "eliminado_en": null,
+      "rol": {
+        "id": 2,
+        "nombre": "productor",
+        "descripcion": "Responsable de un huerto y sus productos"
+      },
+      "huertos": [
+        {
+          "id": 2,
+          "nombre": "Huerto Comunitario Norte",
+          "funcion_miembro": "coordinadora",
+          "fecha_ingreso": "2026-02-10 08:45:00"
+        }
+      ]
+    }
+  ]
+}

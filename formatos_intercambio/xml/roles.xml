@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+    <rol>
+        <id>1</id>
+        <nombre>administrador</nombre>
+        <descripcion>Responsable del sistema y la gestión de usuarios/productos</descripcion>
+        <creado_en>2026-09-08 05:00:00</creado_en>
+        <actualizado_en></actualizado_en>
+    </rol>
+
+    <rol>
+        <id>2</id>
+        <nombre>productor</nombre>
+        <descripcion>Responsable de los huertos, sus cuidados y de los productos</descripcion>
+        <creado_en>2026-09-08 05:05:00</creado_en>
+        <actualizado_en></actualizado_en>
+    </rol>
+
+    <rol>
+        <id>3</id>
+        <nombre>cliente</nombre>
+        <descripcion>Ususrios que compran productos de los huertos</descripcion>
+        <creado_en>2026-09-08 05:10:00</creado_en>
+        <actualizado_en></actualizado_en>
+    </rol>
+</roles>

@@ -1,0 +1,52 @@
+{
+  "miembros_huertos": [
+    {
+      "huerto_id": 1,
+      "usuario_id": 2,
+      "huerto": {
+        "id": 1,
+        "nombre": "Huerto Las Flores"
+      },
+      "usuario": {
+        "id": 2,
+        "nombres": "Jonathan Ulises",
+        "apellidos": "Gómez Guzmán",
+        "correo": "jonathan@gg.com"
+      },
+      "funcion_miembro": "propietario",
+      "fecha_ingreso": "2026-01-15 09:00:00"
+    },
+    {
+      "huerto_id": 1,
+      "usuario_id": 3,
+      "huerto": {
+        "id": 1,
+        "nombre": "Huerto Las Flores"
+      },
+      "usuario": {
+        "id": 3,
+        "nombres": "Sonia",
+        "apellidos": "Gómez Salcedo",
+        "correo": "sonia@gomez.com"
+      },
+      "funcion_miembro": "colaborador",
+      "fecha_ingreso": "2026-02-01 11:30:00"
+    },
+    {
+      "huerto_id": 2,
+      "usuario_id": 4,
+      "huerto": {
+        "id": 2,
+        "nombre": "Huerto Comunitario Norte"
+      },
+      "usuario": {
+        "id": 4,
+        "nombres": "Gabriela Paola",
+        "apellidos": "González Ruiz",
+        "correo": "gabys@gr.com"
+      },
+      "funcion_miembro": "coordinadora",
+      "fecha_ingreso": "2026-02-10 08:45:00"
+    }
+  ]
+}

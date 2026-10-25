@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<miembros_huertos>
+    <miembro_huerto>
+        <huerto_id>1</huerto_id>
+        <usuario_id>2</usuario_id>
+
+        <huerto>
+            <id>1</id>
+            <nombre>Huerto Las Flores</nombre>
+        </huerto>
+
+        <usuario>
+            <id>2</id>
+            <nombres>Jonathan Ulises</nombres>
+            <apellidos>Gómez Guzmán</apellidos>
+            <correo>jonathan@gg.com</correo>
+        </usuario>
+
+        <funcion_miembro>propietario</funcion_miembro>
+        <fecha_ingreso>2026-01-15 09:00:00</fecha_ingreso>
+    </miembro_huerto>
+
+    <miembro_huerto>
+        <huerto_id>1</huerto_id>
+        <usuario_id>3</usuario_id>
+
+        <huerto>
+            <id>1</id>
+            <nombre>Huerto Las Flores</nombre>
+        </huerto>
+
+        <usuario>
+            <id>3</id>
+            <nombres>Sonia</nombres>
+            <apellidos>Gómez Salcedo</apellidos>
+            <correo>sonia@gomez.com</correo>
+        </usuario>
+
+        <funcion_miembro>colaborador</funcion_miembro>
+        <fecha_ingreso>2026-02-01 11:30:00</fecha_ingreso>
+    </miembro_huerto>
+
+    <miembro_huerto>
+        <huerto_id>2</huerto_id>
+        <usuario_id>4</usuario_id>
+
+        <huerto>
+            <id>2</id>
+            <nombre>Huerto Comunitario Norte</nombre>
+        </huerto>
+
+        <usuario>
+            <id>4</id>
+            <nombres>Gabriela Paola</nombres>
+            <apellidos>González Ruiz</apellidos>
+            <correo>gabys@gr.com</correo>
+        </usuario>
+
+        <funcion_miembro>coordinadora</funcion_miembro>
+        <fecha_ingreso>2026-02-10 08:45:00</fecha_ingreso>
+    </miembro_huerto>
+</miembros_huertos>

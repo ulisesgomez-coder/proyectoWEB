@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<usuarios>
+    <usuario>
+        <id>1</id>
+        <rol_id>1</rol_id>
+        <nombres>Juan</nombres>
+        <apellidos>García Torres</apellidos>
+        <correo>juan.admin@huertosurbanos.mx</correo>
+        <correo_verificado_en>2026-01-10 09:00:00</correo_verificado_en>
+        <contrasena>$2y$12$contrasenaSimuladaUsuario1</contrasena>
+        <telefono>3311111111</telefono>
+        <estado>activo</estado>
+        <token_recordar/>
+        <creado_en>2026-01-10 09:00:00</creado_en>
+        <actualizado_en>2026-01-10 09:00:00</actualizado_en>
+        <eliminado_en/>
+
+        <rol>
+            <id>1</id>
+            <nombre>administrador</nombre>
+            <descripcion>Responsable de administrar la plataforma</descripcion>
+        </rol>
+
+        <huertos/>
+    </usuario>
+
+    <usuario>
+        <id>2</id>
+        <rol_id>2</rol_id>
+        <nombres>Jonathan Ulises</nombres>
+        <apellidos>Gómez Guzmán</apellidos>
+        <correo>jonathan@gg.com</correo>
+        <correo_verificado_en>2026-01-15 09:00:00</correo_verificado_en>
+        <contrasena>$2y$12$contrasenaSimuladaUsuario2</contrasena>
+        <telefono>3322222222</telefono>
+        <estado>activo</estado>
+        <token_recordar/>
+        <creado_en>2026-01-15 09:00:00</creado_en>
+        <actualizado_en>2026-01-15 09:00:00</actualizado_en>
+        <eliminado_en/>
+
+        <rol>
+            <id>2</id>
+            <nombre>productor</nombre>
+            <descripcion>Responsable de un huerto y sus productos</descripcion>
+        </rol>
+
+        <huertos>
+            <huerto>
+                <id>1</id>
+                <nombre>Huerto Las Flores</nombre>
+                <funcion_miembro>propietario</funcion_miembro>
+                <fecha_ingreso>2026-01-15 09:00:00</fecha_ingreso>
+            </huerto>
+        </huertos>
+    </usuario>
+
+    <usuario>
+        <id>3</id>
+        <rol_id>3</rol_id>
+        <nombres>Sonia</nombres>
+        <apellidos>Gómez Salcedo</apellidos>
+        <correo>sonia@gomez.com</correo>
+        <correo_verificado_en>2026-02-01 11:30:00</correo_verificado_en>
+        <contrasena>$2y$12$contrasenaSimuladaUsuario3</contrasena>
+        <telefono>3333333333</telefono>
+        <estado>activo</estado>
+        <token_recordar/>
+        <creado_en>2026-02-01 11:30:00</creado_en>
+        <actualizado_en>2026-02-01 11:30:00</actualizado_en>
+        <eliminado_en/>
+
+        <rol>
+            <id>3</id>
+            <nombre>cliente</nombre>
+            <descripcion>Usuario que consulta y adquiere productos</descripcion>
+        </rol>
+
+        <huertos>
+            <huerto>
+                <id>1</id>
+                <nombre>Huerto Las Flores</nombre>
+                <funcion_miembro>colaborador</funcion_miembro>
+                <fecha_ingreso>2026-02-01 11:30:00</fecha_ingreso>
+            </huerto>
+        </huertos>
+    </usuario>
+
+    <usuario>
+        <id>4</id>
+        <rol_id>2</rol_id>
+        <nombres>Gabriela Paola</nombres>
+        <apellidos>González Ruiz</apellidos>
+        <correo>gabys@gr.com</correo>
+        <correo_verificado_en>2026-02-10 08:45:00</correo_verificado_en>
+        <contrasena>$2y$12$contrasenaSimuladaUsuario4</contrasena>
+        <telefono>3344444444</telefono>
+        <estado>activo</estado>
+        <token_recordar/>
+        <creado_en>2026-02-10 08:45:00</creado_en>
+        <actualizado_en>2026-02-10 08:45:00</actualizado_en>
+        <eliminado_en/>
+
+        <rol>
+            <id>2</id>
+            <nombre>productor</nombre>
+            <descripcion>Responsable de un huerto y sus productos</descripcion>
+        </rol>
+
+        <huertos>
+            <huerto>
+                <id>2</id>
+                <nombre>Huerto Comunitario Norte</nombre>
+                <funcion_miembro>coordinadora</funcion_miembro>
+                <fecha_ingreso>2026-02-10 08:45:00</fecha_ingreso>
+            </huerto>
+        </huertos>
+    </usuario>
+</usuarios>
